@@ -2,7 +2,7 @@ import Navbar from 'components/Navbar';
 import Catalog from 'pages/Catalog';
 import Home from 'pages/Home';
 import ProductDetails from 'pages/ProductDetails';
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Routes = () => {
   return (
@@ -12,10 +12,10 @@ const Routes = () => {
         <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/products" exact>
+        <Route path="/games" exact>
           <Catalog />
         </Route>
-        <Route path="/products/:productId">
+        <Route path="/games/:gamesId">
           <ProductDetails />
         </Route>
            

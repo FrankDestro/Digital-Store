@@ -1,0 +1,60 @@
+.card-car {
+  background: #ededed;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/*CARD DE CIMA */
+.card-top-container {
+  border-bottom: 1px solid #dcdada;
+  text-align: center;
+}
+
+/* foto game */
+.card-top-container img {
+  width: 100%;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+/* CARD DE BAIXO  */
+.card-bottom-container {
+  text-align: center;
+  padding: 10px 25px 15px 25px;
+}
+
+/* Audi Supra TT */
+.card-bottom-container h6 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: black;
+  text-align: left;
+}
+
+/* Lorem ipsum dolor sit amet */
+.card-bottom-container p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+  text-align: left;
+  margin-bottom: 38px;
+}
+
+.btn-buy {
+  width: 260px;
+  height: 40px;
+  background: #00285f;
+  border-radius: 5px;
+  border-color: #00285f;
+  padding: 0;
+}
+
+.btn-buy p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  font-style: normal;
+  text-align: center;
+}

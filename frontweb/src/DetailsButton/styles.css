@@ -1,0 +1,17 @@
+.btn-buy {
+  width: 260px;
+  height: 40px;
+  background: #00285f;
+  border-radius: 5px;
+  border-color: #00285f;
+  padding: 0;
+}
+
+.btn-buy p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  font-style: normal;
+  text-align: center;
+}
